@@ -1,0 +1,22 @@
+{
+  "name": "solana-explorer",
+  "version": "1.0.0",
+  "description": "The Solana Explorer consists of several Substreams modules showcasing the most basic operations that you can perform with Substreams on the Solana blockchain.",
+  "main": "readTransaction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/buffer-layout": "^4.0.1",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/web3.js": "^1.95.3",
+    "base58": "^2.0.1",
+    "base64-js": "^1.5.1",
+    "borsh": "^2.0.0",
+    "bs58": "^6.0.0",
+    "buffer": "^6.0.3",
+    "typescript": "^5.6.3"
+  }
+}

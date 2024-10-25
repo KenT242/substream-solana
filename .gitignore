@@ -1,0 +1,66 @@
+.vscode
+.idea
+.DS_Store
+buf.gen.yaml
+/target
+*.spkg
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+*.log
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for Yarn
+yarn.lock
+
+# Ignore coverage directory
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore backup files
+*.bak
+*.backup
+*~
+
+# Ignore Rust specific files
+Cargo.lock
+**/*.rs.bk
+
+# Ignore Solana specific files
+*.so
+*.dylib
